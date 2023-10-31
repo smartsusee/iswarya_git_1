@@ -7,5 +7,16 @@
   </head>
   <body>
     <p>a=4</p>
+
+    <script>
+      function data() {
+        let a = 10;
+        return function () {
+          console.log(a);
+        };
+      }
+
+      data();
+    </script>
   </body>
 </html>
